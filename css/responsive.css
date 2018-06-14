@@ -1,0 +1,23 @@
+@media screen and (min-width: 600px) {
+    h2 {
+        font-size: 35px;
+        padding: 5%;
+    }
+
+    .pagelink {
+        font-size: 20px;
+    }
+
+    .greeting {
+        font-size: 20px;
+    }
+
+    .intro {
+        margin: 5% 15%;
+        font-size: 20px;
+    }
+
+    .skillset {
+        margin: 5% 20%;
+    }
+}

@@ -1,0 +1,189 @@
+/* lineout the box layout */
+* {
+    outline: 1px solid red !important;
+ }
+
+ body {
+    font-family: 'Titillium Web', sans-serif;
+    width: 100%;
+    margin: 0;
+}
+
+ .container {
+    width: 100%;
+ }
+
+header {
+    display: flex;
+    align-items: baseline;
+ }
+
+ .navigation {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    padding: 2%;
+    background-color: darkgray;
+}
+
+ .pagelink {
+    margin: 0 5px 0 0;
+    padding: 0 10px;
+    text-decoration: none;
+    color: white;
+    background-color: darkgray;
+    font-size: 15px;
+ }
+
+ #home {
+    display: flex;
+    flex-wrap: wrap;
+ }
+
+ .wrapper {
+    width: 100%;
+    margin: 100px 0px 0px 0;
+ }
+
+ .picture {
+    display: flex;
+    justify-content: center;
+ }
+
+.picture img {
+    width: 40%;
+    height: 40%;
+    border-radius: 50%;
+    box-shadow: 3px 4px 20px 7px lightgrey;
+}
+
+.greeting {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px 40px 0px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0 10px 0;
+}
+
+.intro {
+    text-align: center;
+    margin: 30px 20px 50px 20px;
+}
+
+.skillset {
+    list-style-type: none;
+    padding: 0;
+    margin: 6% 10%;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgray;
+    margin: 2% 0;
+    transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+}
+
+.technical {
+    background-color: lightslategray;
+    width: 90px;
+    text-align: center;
+    color: white;
+}
+
+.percent1 {
+    padding: 0 5% 0 15%;
+    background-color: lightyellow
+}
+
+.percent2 {
+    padding: 0 5% 0 25%;
+    background-color: lightyellow
+}
+
+.figure {
+    width: 50%;
+}
+
+#projects h2 {
+    margin: 5%;
+    width: 100%;
+}
+
+.propic img {
+    width: 100%;
+    border-radius: 10%;
+    box-shadow: 2px 3px 20px 3px #aaadac;
+}
+
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+figcaption {
+    text-align: center;
+    color: #101010;
+    font-weight: bold;
+    font-size: 100%;
+    margin: 5% 0;
+}
+
+#contact {
+    text-align: center;
+}
+
+#contact h2 {
+    margin: 10% 0 5% 0;
+}
+
+.question {
+    font-size: 100%;
+}
+
+.social {
+    margin: 5% 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* entypo */
+[class*="entypo-"]:before {
+    font-family: 'entypo', sans-serif;
+}
+  
+/* fontawesome */
+[class*="fontawesome-"]:before {
+    font-family: 'FontAwesome', sans-serif;
+}
+
+/* zocial */
+[class*="zocial-"]:before {
+    font-family: 'zocial', sans-serif;
+}
+
+.icon {
+    font-size: 120%;
+    text-decoration: none;
+    color: black;
+    padding: 1px 3%;
+}
+
+.footername {
+    font-size: 70%;
+}
+
+.footername span {
+    color: red;
+}
