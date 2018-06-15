@@ -21,3 +21,38 @@
         margin: 5% 20%;
     }
 }
+
+@media screen and (min-width: 800px) {
+    h2 {
+        padding: 6%;
+    }
+
+    .figure {
+        width: 30%;
+    }
+
+    .propic img {
+        width: 100%;
+        height: 80%;
+    }
+
+    figcaption {
+        font-size: 110%;
+    }
+
+    .greeting {
+        font-size: 22px;
+    }
+
+    .intro {
+        font-size: 22px;
+    }
+
+    .question {
+        font-size: 110%;
+    }
+
+    .icon {
+        font-size: 140%;
+    }
+}
