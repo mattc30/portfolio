@@ -23,8 +23,14 @@
         <!-- home -->
         <section class="container" id="home">
             <div class="wrapper">
-                <picture class="picture">
-                    <img src="images_src/headshot.jpg" alt="Matt's Heasdshot">
+                <picture class="head_shot">
+                    <source 
+                        media="(min-width: 800px)"
+                        srcset="images/headshot-large.jpg x1, images/headshot-large_x2.jpg x2">
+                    <source
+                        media="(min-width: 600px)"
+                        srcset="images/headshot-medium.jpg">
+                    <img src="images/headshot-small.jpg" alt="Matthew's Headshot">
                 </picture>
             </div>
             <p class="greeting">Hello! I'm Matthew Chen, a full-stack web developer.</p>
@@ -32,7 +38,7 @@
 
         <!-- about -->
         <section class="container" id="about">
-            <h2>ABOUT</h2>
+            <h1>ABOUT</h1>
             <p class="intro">I am snindcwe cnacod ncweinccs wdnc dcc jkwnhwn
                 noanowcsdc cnsicncdcs vfgcsvf ff ee fe f snono o hi inoncw
                 nicebvenoefdm nownin credf dfgrw wthis.
@@ -67,38 +73,68 @@
 
         <!-- projects -->
         <section class="container" id="projects">
-            <h2>PROJECTS</h2>
+            <h1>PROJECTS</h1>
             <figure class="figure">
                 <picture class="propic">
-                    <img src="images_src/project1.jpg" alt="Movie Website">
+                    <source 
+                        media="(min-width: 800px)"
+                        srcset="images/project1-large.jpg, images/project1-large_x2.jpg x2">
+                    <source
+                        media="(min-width: 600px)"
+                        srcset="images/project1-medium.jpg">
+                    <img src="images/project1-small.jpg" alt="Movie Website">
                 </picture>
                 <figcaption>Movie Website</figcaption>
             </figure>
         
             <figure class="figure">
-                <picture  class="propic">
-                    <img src="images_src/project2.jpg" alt="Logs Analysis">
+                <picture class="propic">
+                    <source 
+                        media="(min-width: 800px)"
+                        srcset="images/project2-large.jpg, images/project2-large_x2.jpg x2">
+                    <source
+                        media="(min-width: 600px)"
+                        srcset="images/project2-medium.jpg">
+                    <img src="images/project2-small.jpg" alt="Log Analysis">
                 </picture>
                 <figcaption>Logs Analysis</figcaption>
             </figure>
         
             <figure class="figure">
-                <picture  class="propic">
-                    <img src="images_src/project3.jpg" alt="Item Catalog">
+                <picture class="propic">
+                    <source 
+                        media="(min-width: 800px)"
+                        srcset="images/project3-large.jpg, images/project3-large_x2.jpg x2">
+                    <source
+                        media="(min-width: 600px)"
+                        srcset="images/project3-medium.jpg">
+                    <img src="images/project3-small.jpg" alt="Item Catalog">
                 </picture>
                 <figcaption>Item Catalog</figcaption>
             </figure>
         
             <figure class="figure">
-                <picture  class="propic">
-                    <img src="images_src/project4.jpg" alt="Neighborhood Map">
+                <picture class="propic">
+                    <source 
+                        media="(min-width: 800px)"
+                        srcset="images/project4-large.jpg, images/project4-large_x2.jpg x2">
+                    <source
+                        media="(min-width: 600px)"
+                        srcset="images/project4-medium.jpg">
+                    <img src="images/project4-small.jpg" alt="Neighborhood Map">
                 </picture>
                 <figcaption>Neighborhood Map</figcaption>
             </figure>
         
             <figure class="figure">
-                <picture  class="propic">
-                    <img src="images_src/project5.jpg" alt="Linux Server Configuration">
+                <picture class="propic">
+                    <source 
+                        media="(min-width: 800px)"
+                        srcset="images/project5-large.jpg, images/project5-large_x2.jpg x2">
+                    <source
+                        media="(min-width: 600px)"
+                        srcset="images/project5-medium.jpg">
+                    <img src="images/project5-small.jpg" alt="Linux Server Configuration">
                 </picture>
                 <figcaption>Linux Server Configuration</figcaption>
             </figure>
@@ -106,7 +142,7 @@
 
         <!-- contact -->
         <footer class="container" id="contact">
-            <h2>CONTACT</h2>
+            <h1>CONTACT</h1>
             <p class="question">Have a question or want to work together?</p>
             <p class="question">Contact with me on socials :</p>
             <div class="social">
