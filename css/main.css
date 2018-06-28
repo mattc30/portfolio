@@ -1,9 +1,9 @@
-/* lineout the box layout */
+/* lineout the box layout
 * {
     outline: 1px solid red !important;
- }
+ } */
 
- body {
+body {
     font-family: 'Titillium Web', sans-serif;
     width: 100%;
     margin: 0;
@@ -20,7 +20,7 @@ header {
 
  .navigation {
     display: flex;
-    justify-content: left;
+    justify-content: flex-start;
     align-items: center;
     width: 100%;
     position: fixed;
@@ -50,6 +50,7 @@ header {
  .head_shot {
     display: flex;
     justify-content: center;
+    margin: 5% 0;
  }
 
  .head_shot img {
@@ -77,7 +78,7 @@ h1 {
 }
 
 .intro {
-    text-align: center;
+    text-align: left;
     margin: 30px 20px 50px 20px;
 }
 
@@ -116,7 +117,6 @@ h1 {
 }
 
 #projects h1 {
-    margin: 5%;
     width: 100%;
 }
 
@@ -155,7 +155,7 @@ figcaption {
 .social {
     margin: 5% 0;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 /* entypo */
